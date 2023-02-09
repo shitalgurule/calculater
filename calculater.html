@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> calculater</title>
+    <style>
+        .item {
+            background-color: tomato;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            font-size: 50px;
+            padding: 10px;
+        }
+        .cal-conatiner{
+            background-color: #121f35;
+            margin-left: auto;
+            margin-right: auto;
+            height: 650px;
+            width: 500px;
+            border-radius: 10px;
+        }
+        .brand
+        {
+            color: white;
+            margin-left: 20px;
+            padding-top: 10px;
+            font-size: 25px;
+            
+        }
+        .screen
+        {
+            background-color: rgb(136, 164, 128);
+            font-size: 40px;
+            display: block;
+            height: 60px;
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+        }
+        .key-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .key
+        {
+            background-color: aquamarine;
+            color: black;
+            height: 60px;
+            width: 60px;
+            font-size: 24px;
+            text-align: center;
+            border-radius: 15px;
+            border: solid 3px rgb(46, 215, 43);
+            cursor:pointer;
+            transition: o.3s;
+            margin: 10px;
+        
+        }
+        .key:hover{
+            border: solid 5px rgb(210, 142, 31);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="cal-conatiner">
+        <p class="brand">RTC<br></p>
+
+        <input type="text" class="screen"/>
+    <div class="key-container">
+        <button class="key">%</button>
+        <button class="key">CE</button>
+        <button class="key">C</button>
+        <button class="key">cle</button>
+    </div>
+    <div class="key-container">
+        <button class="key">1/x</button>
+        <button class="key">x^2</button>
+        <button class="key">sqr</button>
+        <button class="key">/</button>
+    </div>
+    <div class="key-container">
+        <button class="key">7</button>
+        <button class="key">8</button>
+        <button class="key">9</button>
+        <button class="key">X</button>
+    </div>
+    <div class="key-container">
+        <button class="key">4</button>
+        <button class="key">5</button>
+        <button class="key">6</button>
+        <button class="key">-</button>
+    </div>
+    
+    <div class="key-container">
+        <button class="key">1</button>
+        <button class="key">2</button>
+        <button class="key">3</button>
+        <button class="key">+</button>
+    </div>
+    
+    <div class="key-container">
+        <button class="key">+/-</button>
+        <button class="key">0</button>
+        <button class="key">.</button>
+        <button class="key">=</button>
+    </div>
+    </div>
+
+</body>
+</html>
+
